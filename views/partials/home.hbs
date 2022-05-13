@@ -1,0 +1,15 @@
+<h1>Hey Mr. {{user}}<span class="badge badge-secondary">welcome</span></h1>	
+{{>logout}}
+<br></br>
+<div class="form-group d-md-flex">
+	   <div class="">
+		
+           
+	      </div>     
+	{{#if user}}
+       	<a id="cp" class="btn btn-success btn-lg" href="create">Create Product</a>
+      <a id="vp" class="btn btn-dark btn-lg" href="list">View all products</a>
+
+{{/if}}
+		
+</div>
